@@ -1,0 +1,33 @@
+
+  .play-video a span {
+    cursor: pointer;
+
+  }
+  .video-para{
+    font-size: 14px;
+    width: 45%;
+  }
+  .vdeo-sec video{
+    margin: 0;
+    padding: 0;
+    object-fit: fill;
+    height: 115px;
+  }
+  @media screen and (max-width: 570px) {
+  .play-video a{
+font-size: 13px;
+  }
+  .video-para{
+    font-size: 12px;
+    width: 90%;
+
+  }
+  .vdeo-sec video{
+    height: 110px;
+    object-fit: fill;
+    margin: 0;
+    padding: 0;
+    
+
+  }
+}
