@@ -3,6 +3,11 @@
     cursor: pointer;
 
   }
+  .vdeo-sec i{
+    position: absolute; top: 54px;font-size: 40px; 
+    color: black;
+    right: 122px;
+  }
   .video-para{
     font-size: 14px;
     width: 45%;
@@ -13,7 +18,8 @@
     object-fit: fill;
     height: 115px;
   }
-  @media screen and (max-width: 570px) {
+
+  @media screen and (max-width: 575px) {
   .play-video a{
 font-size: 13px;
   }
@@ -22,12 +28,17 @@ font-size: 13px;
     width: 90%;
 
   }
-  .vdeo-sec video{
-    height: 110px;
-    object-fit: fill;
-    margin: 0;
-    padding: 0;
-    
-
+  .vdeo-sec i{
+    display: none;
   }
+  
+}
+
+@media screen and (min-width: 576px)and (max-width: 992px)  {
+  .vdeo-sec i{
+     top: 42px;
+    font-size: 40px; 
+    right: 99px;
+  }
+
 }
