@@ -29,10 +29,13 @@ font-size: 13px;
 
   }
   .vdeo-sec i{
-    display: none;
+    /* display: none; */
+    left: 60px;
+    top: 24px;
+}
   }
   
-}
+
 
 @media screen and (min-width: 576px)and (max-width: 992px)  {
   .vdeo-sec i{
