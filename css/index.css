@@ -3,10 +3,12 @@
     cursor: pointer;
 
   }
-  .vdeo-sec i{
+  
+  .icon-play{
     position: absolute; top: 54px;font-size: 40px; 
     color: black;
     right: 122px;
+
   }
   .video-para{
     font-size: 14px;
